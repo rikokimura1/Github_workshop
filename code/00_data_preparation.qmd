@@ -3,3 +3,10 @@ title: "00_data_preparation"
 format: html
 ---
 
+config::get()
+db_credentials <- config::get('database1')
+uid <- db_credentials$uid # username
+pwd <- db_credentials$pw # password
+
+
+
