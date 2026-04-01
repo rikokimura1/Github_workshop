@@ -1,4 +1,4 @@
 add_one <- function(x){
-  y <- x + 3
+  y <- x + 2
   return(y)
 }
